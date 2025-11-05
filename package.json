@@ -3,13 +3,14 @@
     "version": "1.0.0",
     "description": "myFlix app for Full Stack Web Development course - configured with Parcel",
     "scripts": {
-        "start": "parcel index.html",
-        "build": "parcel build index.html"
+        "start": "parcel src/index.html",
+        "build": "parcel build src/index.html"
     },
     "keywords": [],
     "author": "",
     "license": "MIT",
     "devDependencies": {
+        "@parcel/transformer-sass": "^2.16.1",
         "parcel": "^2.16.1"
     }
 }
