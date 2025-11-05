@@ -54,3 +54,4 @@ Replace `<YOUR_REMOTE_URL>` with the GitHub repository URL.
 
 - If you already have Parcel installed globally you can run `parcel index.html` directly, but `npx parcel index.html` or the npm script are recommended to ensure the right version is used.
 - This README documents the minimal steps to verify Parcel is configured and running.
+Test commit from GitHub Desktop
