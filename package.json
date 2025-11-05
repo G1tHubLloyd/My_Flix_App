@@ -1,0 +1,15 @@
+{
+    "name": "my-flix-app",
+    "version": "1.0.0",
+    "description": "myFlix app for Full Stack Web Development course - configured with Parcel",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "parcel": "^2.16.1"
+    }
+}
