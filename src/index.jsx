@@ -1,13 +1,20 @@
-import './index.scss';
+import { createRoot } from "react-dom/client";
 
-// Minimal entry for the myFlix app used to verify Parcel setup
-const app = document.getElementById('app');
-app.innerHTML = `
-  <main>
-    <h1>myFlix App</h1>
-    <p>Parcel is configured and serving <code>src/index.html</code>.</p>
-    <p>Edit <code>src/index.jsx</code> or <code>src/index.scss</code> and save to see hot reload.</p>
-  </main>
-`;
+// Import statement to indicate that you need to bundle `./index.scss`
+import "./index.scss";
 
-console.log('myFlix App started — Parcel should be serving src/index.html');
+// Main component (will eventually use all the others)
+const MyFlixApplication = () => {
+  return (
+    <div className="my-flix">
+      <div>Good morning</div>
+    </div>
+  );
+};
+
+// Finds the root of your app
+const container = document.querySelector("#app");
+const root = createRoot(container);
+
+// Tells React to render your app in the root DOM element
+root.render(<MyFlixApplication />);
