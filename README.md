@@ -1,46 +1,48 @@
-# myFlix App (Parcel configured)
+# myFlix App (Parcel + React)
 
-This small project is a minimal skeleton for the **myFlix** app and is configured to use Parcel as the bundler/dev server.
+This project is a minimal skeleton for the **myFlix** app. It uses Parcel as the bundler/dev server and React for the UI.
 
-## Files added
-- `index.html` — Parcel entry point.
-- `src/index.js` — Minimal JavaScript entry that renders a tiny UI.
-- `package.json` — Includes `start` and `build` scripts using Parcel.
+## Files of interest
+- `index.html` — Parcel entry point that loads `src/index.jsx`.
+- `src/index.jsx` — React entry that mounts the `MyFlixApplication` component.
+- `package.json` — Includes `start` and `build` scripts using Parcel and lists `react` and `react-dom` as dependencies.
 - `.gitignore` — ignores `node_modules`, build and cache folders.
 
 ## Setup & run (Windows / bash)
 
-1. Install dependencies (this will create `node_modules` and add Parcel):
+1. Install dependencies (already included in this repo):
 
 ```bash
-npm install --save-dev parcel
+npm install
 ```
 
-2. Start the Parcel dev server from the project root (uses `index.html`):
+2. Start the Parcel dev server from the project root:
 
 ```bash
-npx parcel index.html
+npm start
 ```
 
-or using the npm script:
-
-```bash
-npm run start
-```
-
-Parcel will serve the site (default http://localhost:1234). When running the `parcel` command, be sure to pass the actual path to `index.html` relative to the directory you run it from, e.g. `parcel index.html`.
+Parcel will serve the site at http://localhost:1234 by default. Open that URL in your browser to see the app.
 
 ## Build for production
+
+Create an optimized production build with Parcel:
 
 ```bash
 npm run build
 ```
 
-## Git / GitHub Desktop
+The production build output will be in the `dist/` folder.
 
-1. I initialized and made an initial commit locally. To publish the repo and push the changes to GitHub, open **GitHub Desktop**, add this repository if not already present, and click `Publish repository` (or `Push origin`) to upload to your GitHub account.
+## Project notes & guidance
 
-If you prefer the command line, add a remote and push:
+- This project now uses React. The primary entry is `src/index.jsx` which uses `react-dom/client` to mount the `MyFlixApplication` component and render the UI (you should see "Good morning").
+- `src/index.js` (previous vanilla JS entry) was removed because the React entry is used instead.
+- `.gitignore` already excludes `node_modules/`, `.env`, and build/cache folders. Do not commit secrets or `node_modules`.
+
+## Publishing to GitHub
+
+To publish this repository to GitHub from the command line (if you need to add the remote):
 
 ```bash
 git remote add origin <YOUR_REMOTE_URL>
@@ -48,10 +50,8 @@ git branch -M main
 git push -u origin main
 ```
 
-Replace `<YOUR_REMOTE_URL>` with the GitHub repository URL.
+Or use GitHub Desktop: Add the local repository and click `Publish repository`.
 
-## Notes
+## Final
 
-- If you already have Parcel installed globally you can run `parcel index.html` directly, but `npx parcel index.html` or the npm script are recommended to ensure the right version is used.
-- This README documents the minimal steps to verify Parcel is configured and running.
-Test commit from GitHub Desktop
+This README documents how to run and build the app locally. If you want, I can add GitHub topics or a more detailed CONTRIBUTING guide.
