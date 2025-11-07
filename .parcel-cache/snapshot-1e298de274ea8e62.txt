@@ -1,4 +1,4 @@
-3732
+3736
 120C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\@parcel\reporter-tracer\lib\TracerReporter.js134068279684956835 0
 98C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\@parcel\watcher\LICENSE134068279646009696 0
 100C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\semver\ranges\simplify.js134068279707295622 0
@@ -37,7 +37,7 @@
 93C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\msgpackr\pack.d.ts134068279723203972 0
 111C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\@parcel\source-map\dist\node.js.flow134068279654971265 0
 102C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\@parcel\watcher\src\windows134068279714082359 1
-66C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\dist134069108993544404 1
+66C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\dist134069121161576299 1
 114C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\caniuse-lite\data\features\autofocus.js134068279710327818 0
 119C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\@parcel\workers\src\process\ProcessWorker.js134068279710562324 0
 100C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\dotenv\lib\cli-options.js134068279635361045 0
@@ -50,7 +50,7 @@
 92C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\tslib\SECURITY.md134068279640598672 0
 99C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\@parcel\reporter-cli\src134068279706585317 1
 80C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\json5134068279682016805 1
-71C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\README.md134068419073937247 0
+71C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\README.md134069265345263013 0
 96C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\picocolors\types.d.ts134068279638639164 0
 126C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_dump.c134068279715572285 0
 103C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\weak-lru-cache\tests\test.js134068279640428695 0
@@ -250,7 +250,7 @@
 98C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\react-dom\test-utils.js134069108013498941 0
 79C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\lmdb134068279750168797 1
 115C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\type-fest\source\conditional-except.d.ts134068279646841569 0
-77C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\dist\index.html134068436756824194 0
+77C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\dist\index.html134069121161262129 0
 99C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\@parcel\watcher\src\wasm134068279712382297 1
 85C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\micromatch134068279641798662 1
 109C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\caniuse-lite\data\features\heif.js134068279784501486 0
@@ -1538,6 +1538,7 @@
 96C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\lmdb\dependencies\lz4134068279681306856 1
 99C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\@parcel\packager-raw\lib134068279665611273 1
 109C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\caniuse-lite\data\features\hevc.js134068279784611469 0
+95C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\dist\My_Flix_App.aa593b3b.css.map134069121161533568 0
 104C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\lmdb\dependencies\lz4\LICENSE134068279681636836 0
 117C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\lmdb\dependencies\lz4\lib\liblz4-dll.rc.in134068279746873778 0
 102C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\@parcel\plugin\package.json134068279660470650 0
@@ -3727,7 +3728,10 @@
 88C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\.bin\sass.cmd134068283875639942 0
 88C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\.bin\sass.ps1134068283875639942 0
 106C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\node_modules\.bin\update-browserslist-db.ps1134068279815544596 0
+90C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\dist\My_Flix_App.0f1a4272.js134069121161312112 0
+94C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\dist\My_Flix_App.0f1a4272.js.map134069121161553693 0
 90C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\dist\My_Flix_App.3464ddca.js134068291821476913 0
 94C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\dist\My_Flix_App.3464ddca.js.map134068291821572756 0
+91C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\dist\My_Flix_App.aa593b3b.css134069121161292147 0
 94C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\dist\My_Flix_App.ad93b51f.js.map134069108993514397 0
 95C:\Users\jongi\Desktop\Full Stack Web Development\My_Flix_App\dist\My_Flix_App.ce1d6491.css.map134068293613324786 0
