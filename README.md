@@ -40,6 +40,8 @@ The production build output will be in the `dist/` folder.
 - `src/index.js` (previous vanilla JS entry) was removed because the React entry is used instead.
 - `.gitignore` already excludes `node_modules/`, `.env`, and build/cache folders. Do not commit secrets or `node_modules`.
 
+Note: The greeting text displayed by the app (e.g. "Good morning!!! Its me Lloyd.") is implemented in the `MyFlixApplication` component inside `src/index.jsx`.
+
 ## Publishing to GitHub
 
 To publish this repository to GitHub from the command line (if you need to add the remote):
